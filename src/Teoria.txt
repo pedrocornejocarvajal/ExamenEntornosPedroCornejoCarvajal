@@ -1,0 +1,23 @@
+1.Comente brevemente las siguientes afirmaciones:
+
+    -Dado un código breve y sencillo, realizado por un programador experimentado, podemos afirmar que no tendrá errores.
+        +Falso, Nunca se puede afirmar que un fragmento de código no tendrá errores ya que puede haber combinaciones de
+         valores que haga que las pruebas fallen y no las hayas contemplado.
+
+    -Es posible garantizar que un código no tiene errores, siempre que se hagan la pruebas unitarias por un equipo de
+     pruebas especializado.
+        +Falso, aunque es cierto que es mas probable que no tenga errores en este caso, siempre puede haber combinaciones
+         que no hayas probado o incluso la prueba puede estar mal diseñada, una forma de saber esto es probar a cambiar
+         el código del programa, si pasa aun así las pruebas, las pruebas están mal hechas.
+
+2.Explique brevemente las estrategias de prueba de caja blanca para las siguientes estructuras: (2 puntos)
+    - Selectiva:
+        + Haría todas las combinaciones posibles dentro de la condición (falso-falso, true-true, true-false, false-true)
+
+    - Iterativa:
+        + En este caso hablamos de un método con bucles por lo tanto hay que probar la mayoría de combinaciones posibles
+          dentro de su condición, Por ejemplo: Los extremos de la condición, números negativos, importante probar el 0, etc.
+
+    Por caja blanca se entiende probar la mayor cantidad posible de código dentro del método, por lo tanto la estrategia
+    siempre va a cambiar pero siempre para poder probar la mayor parte de código de ese método en cualquier situación.
+
